@@ -61,7 +61,16 @@ html{
     #hamburger-nav{
         display: none;
     }
-
+    #footer img{
+        float: inline-end;
+        display: flex;
+        margin: none;
+    }
+    #submenu ul{
+        background-image: url(https://nepal.oxfam.org/themes/custom/oxfam_stable/src/01-foundation/iconography/oxfam-line.svg);
+        background-size: 100% 5px;
+        background-repeat: no-repeat;
+      }
 
 }
 /*  */
@@ -139,6 +148,11 @@ html{
             padding: none;
             margin: none;
         }
+        #submenu ul{
+            background-image: url(https://nepal.oxfam.org/themes/custom/oxfam_stable/src/01-foundation/iconography/oxfam-line.svg);
+            background-size: 100% 5px;
+            background-repeat: no-repeat;
+          }
         #hamburger-nav.smenu{
             right:0%;
         }

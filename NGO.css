@@ -13,7 +13,11 @@ html{
         display: flex;
         justify-content: space-between;
     }
-
+    #submenu ul{
+        background-image: url(https://nepal.oxfam.org/themes/custom/oxfam_stable/src/01-foundation/iconography/oxfam-line.svg);
+        background-size: 100% 5px;
+        background-repeat: no-repeat;
+      }
     #header-1{
         display: flex;
         align-items: center;
@@ -59,7 +63,7 @@ html{
 
 }
 /*  */
-    @media (min-width: 200px) and (max-width: 800px) {
+    @media (min-width: 0px) and (max-width: 800px) {
         #header-2{
             display: none;
         }
@@ -72,6 +76,11 @@ html{
         #Welcome{
             display: none;
         }
+        #submenu ul{
+            background-image: url(https://nepal.oxfam.org/themes/custom/oxfam_stable/src/01-foundation/iconography/oxfam-line.svg);
+            background-size: 100% 5px;
+            background-repeat: no-repeat;
+          }
 
         #OXFAM{
             width: 80px;
@@ -239,11 +248,14 @@ footer a{
 /* Media Queries */
 /* Page1 Css */
 @media (min-width: 801px) and (max-width: 2560px) {
+    h2{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.8rem;
+    }
 #who-we-are{
-    background-image: url(Assets/truck.jpg);
-    background-size: cover;
-    height: 30rem;
-    background-repeat: no-repeat;
+    
 }
 .content {
   margin-top: 15rem;
@@ -307,12 +319,15 @@ footer a{
 }
 }
 @media (min-width: 0px) and (max-width: 800px) {
+    h2{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.8rem;
+    }
+    
     #who-we-are{
-        background-image: url(Assets/truck.jpg);
-        width: 100%;
-        background-size: cover;
-        height: 20rem;
-        background-repeat: no-repeat;
+      
     }
 
     #Mission-vison li{
